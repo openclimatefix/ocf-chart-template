@@ -18,4 +18,4 @@ For plotly, `pio.templates` is used to set the default chart styling for charts 
 
 ## OCF Font 
 
-<span style="font-family: 'Inter';">Inter Font Styling</span>
+The default font to use is "Inter"
