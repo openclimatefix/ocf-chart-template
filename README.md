@@ -4,6 +4,12 @@ This repo contains code for creating charts in the general OCF format, using the
 
 For plotly, `pio.templates` is used to set the default chart styling for charts made. This is useful if you are using a notebook to create many charts and want the same base styling applied to each chart without having to rewrite the same styling code each time.
 
+### Using The Style
+
+1. The first way to use this is to copy and paste the code into your notebook/script where you are generating plotly charts.
+2. Alternatively you can create a seperate file called setup_plotly.py with the style put into a function. Then import this function in your notebook/script using something like `from setup_plotly import setup_plotly_template`. Then running `setup_plotly_template()`.
+
+
 ## OCF Colours
 
 - ![#E4E4E4](https://placehold.co/15x15/E4E4E4/E4E4E4.png) `#E4E4E4`
@@ -19,3 +25,4 @@ For plotly, `pio.templates` is used to set the default chart styling for charts 
 ## OCF Font 
 
 The default font to use is "Inter"
+
